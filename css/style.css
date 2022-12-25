@@ -830,7 +830,7 @@ transform: translate(-50%, -50%) scale(0.2);
     height: 100%;
     padding: 40px;
     background-color: var(--white-color);
-    /* overflow-y: auto; */
+    overflow-y: auto;
 }
 
 .is-hidden{
@@ -959,12 +959,12 @@ transform: translate(-50%, -50%) scale(0.2);
     height: 15px;
     border: 1px solid;
     border-radius: 4px;
-    padding-right: 14px;
+    fill: var(--white-color);
+    
 }
 .check-input:checked + .check-box{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-    /* background-image: url(../images/icon-check.svg); */
     background-origin: border-box;
 }
 .terms-checkbox{
